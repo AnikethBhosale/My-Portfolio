@@ -1,0 +1,144 @@
+.contact-container{
+  margin-top: 40px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 200px;
+}
+
+.contact-h{
+  font-size: 40px;
+  margin-bottom: -8px;
+  color: #fff;
+}
+.contact-email{
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.contact-email i{
+  margin-right: 10px; color: #ff004f;
+}
+.contact-no{
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.contact-no i{margin-right: 10px; color: #ff004f;}
+
+.contact-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 138px;
+  color: #ababab;
+}
+.contact-icons div{
+  font-size: 35px;
+  color: #ababab
+}
+
+#li2{
+  color: #ababab;
+  transition: transform 0.5s,background 0.5s;
+}
+#li2:hover{
+  transform: translateY(-5px);
+  color: #ff004f;
+}
+#ig2{
+  color: #ababab;
+  transition: transform 0.5s,background 0.5s;
+}
+#ig2:hover{
+  transform: translateY(-5px);
+  color: #ff004f;
+}
+#gh2{
+  color: #ababab;
+  transition: transform 0.5s,background 0.5s;
+}
+#gh2:hover{
+  transform: translateY(-5px);
+  color: #ff004f;
+}
+#em2{
+  color: #ababab;
+  transition: transform 0.5s,background 0.5s;
+}
+#em2:hover{
+  transform: translateY(-5px);
+  color: #ff004f;
+}
+
+.cvdiv{
+  margin-top: 70px;
+}
+.cvd{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff004f;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+
+.contact-right{
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  padding-top: 105px;
+  width: 660px;
+}
+.your-name{
+  height: 46px;
+  border: none;
+  outline: none;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.your-email{
+  height: 46px;
+  border: none;
+  outline: none;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.your-text{
+  height: 220px;
+  border: none;
+  outline: none;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+.info-submit{
+  margin-right: 520px;
+  padding: 16px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff004f;
+  border-radius: 6px;
+}
+
+.copyright{
+  color: #fff;
+  font-size: 18px;
+  background-color: #262626;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+}
